@@ -1,4 +1,8 @@
 n = int(input())
 difficulty = list(map(int, input().split()))
 difficulty.sort()
-dist = difficulty * n
+add = 0
+for dif in difficulty:
+    add += dif * n
+    n -= 1
+print(add)
