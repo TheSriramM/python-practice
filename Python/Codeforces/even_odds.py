@@ -17,3 +17,4 @@ if k > mid:
     print(2*(k-mid))
 else:
     print((k*2)-1)
+
